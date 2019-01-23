@@ -127,8 +127,7 @@ public class Server {
         return null;
     }
 
-    static List<User> showFrineds(int userId)
-    {
+    static List<User> showFrineds(int userId) {
         List<User> friendsList = new ArrayList<>();
         String query = "Select friends.user_id, friends.friend_id, u.first_name, u.last_name, u.user_id from friends " +
                 " inner JOIN users u on friends.friend_id = u.user_id " +
@@ -144,16 +143,16 @@ public class Server {
                 String lastName = result.getString("last_name");
                 friendsList.add(new User(friendId,firstName,lastName));
                 System.out.println(new User(friendId,firstName,lastName));
-                return friendsList;
-            }
 
+            }
+            return friendsList;
 
         }
         catch(SQLException e){
             e.printStackTrace();
         return null;
         }
-        return null;
+
     }
 
     /**

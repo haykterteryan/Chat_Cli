@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9b4a3d28-da4d-4cc1-989f-a050ed7c2a8e" name="Default" comment="" />
+    <list default="true" id="9b4a3d28-da4d-4cc1-989f-a050ed7c2a8e" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/Server/src/main/java/am/chat/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/Server/src/main/java/am/chat/Server.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/Server/target/" />
@@ -46,11 +48,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Server.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Server.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Server/src/main/java/am/chat/Server.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="254">
-              <caret line="273" column="47" selection-start-line="273" selection-start-column="47" selection-end-line="273" selection-end-column="47" />
+            <state relative-caret-position="205">
+              <caret line="130" column="35" lean-forward="true" selection-start-line="130" selection-start-column="35" selection-end-line="130" selection-end-column="35" />
               <folding>
                 <element signature="e#454#566#0" />
                 <element signature="e#572#1453#0" />
@@ -58,12 +60,14 @@
                 <element signature="e#1911#2655#0" />
                 <element signature="e#2661#3518#0" />
                 <element signature="e#3524#4424#0" />
-                <element signature="e#4430#5771#0" />
                 <element signature="e#5777#5895#0" />
                 <element signature="e#5777#6455#0" />
                 <element signature="e#6461#7422#0" />
+                <element signature="e#7428#7468#0" />
                 <element signature="e#7428#7919#0" />
+                <element signature="e#7925#8060#0" />
                 <element signature="e#7880#9407#0" />
+                <element signature="e#9493#9996#0" />
                 <element signature="e#11162#12245#0" />
                 <element signature="e#13717#13816#0" />
               </folding>
@@ -128,10 +132,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ClientProcessor.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ClientProcessor.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Server/src/main/java/am/chat/ClientProcessor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="71">
+            <state relative-caret-position="72">
               <caret line="30" selection-start-line="30" selection-end-line="30" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -152,8 +156,8 @@
       <file leaf-file-name="console.sql" pinned="false" current-in-tab="false">
         <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/244eb364-58c7-443d-b38b-b4022375adb4/console.sql">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="239">
-              <caret line="47" column="85" selection-start-line="47" selection-start-column="85" selection-end-line="47" selection-end-column="85" />
+            <state relative-caret-position="222">
+              <caret line="45" selection-start-line="45" selection-end-line="45" />
             </state>
           </provider>
         </entry>
@@ -176,6 +180,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -243,6 +250,7 @@
     <option name="width" value="1346" />
     <option name="height" value="688" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <flattenPackages ProjectPane="false" />
@@ -304,7 +312,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Client">
+  <component name="RunManager" selected="Application.Server">
     <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="am.chat.Client" />
       <module name="Client" />
@@ -398,15 +406,16 @@
       <workItem from="1548141136039" duration="15531000" />
       <workItem from="1548177847244" duration="908000" />
       <workItem from="1548180884929" duration="10938000" />
-      <workItem from="1548222009845" duration="9866000" />
+      <workItem from="1548222009845" duration="10413000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="122497000" />
+    <option name="totallyTimeSpent" value="123044000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -417,14 +426,14 @@
       <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.50075644" side_tool="true" weight="0.24528302" />
       <window_info anchor="right" id="Maven Projects" order="7" weight="0.32980332" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49924356" weight="0.54888505" />
-      <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.32933104" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49924356" weight="0.5471698" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32933104" />
       <window_info id="Capture Tool" order="3" />
-      <window_info anchor="bottom" id="Database Console" order="9" weight="0.32761577" />
+      <window_info active="true" anchor="bottom" id="Database Console" order="9" visible="true" weight="0.32761577" />
       <window_info id="Designer" order="2" />
       <window_info content_ui="combo" id="Project" order="0" weight="0.24205749" />
-      <window_info anchor="right" x="527" y="61" width="312" height="606" id="Database" order="6" visible="true" weight="0.23600605" />
+      <window_info anchor="right" x="527" y="61" width="312" height="606" id="Database" order="6" weight="0.23600605" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32933104" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -444,7 +453,7 @@
       <window_info id="Designer" order="2" />
       <window_info anchor="bottom" id="Database Console" order="9" weight="0.32761577" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49924356" visible="true" weight="0.3962264" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49924356" visible="true" weight="0.5471698" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info content_ui="combo" id="Project" order="0" weight="0.24205749" />
@@ -457,12 +466,12 @@
       <window_info id="Capture Tool" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32933104" />
-      <window_info anchor="right" x="527" y="61" width="312" height="606" id="Database" order="6" weight="0.23600605" />
+      <window_info anchor="right" x="527" y="61" width="312" height="606" id="Database" order="6" visible="true" weight="0.23600605" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32933104" />
       <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.50075644" side_tool="true" weight="0.24528302" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39965695" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32761577" />
@@ -493,12 +502,14 @@
             <element signature="e#1911#2655#0" />
             <element signature="e#2661#3518#0" />
             <element signature="e#3524#4424#0" />
-            <element signature="e#4430#5771#0" />
             <element signature="e#5777#5895#0" />
             <element signature="e#5777#6455#0" />
             <element signature="e#6461#7422#0" />
+            <element signature="e#7428#7468#0" />
             <element signature="e#7428#7919#0" />
+            <element signature="e#7925#8060#0" />
             <element signature="e#7880#9407#0" />
+            <element signature="e#9493#9996#0" />
             <element signature="e#11162#12245#0" />
             <element signature="e#13717#13816#0" />
           </folding>
@@ -914,40 +925,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/244eb364-58c7-443d-b38b-b4022375adb4/console.sql">
+    <entry file="file://$PROJECT_DIR$/Server/src/main/java/am/chat/ClientProcessor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="239">
-          <caret line="47" column="85" selection-start-line="47" selection-start-column="85" selection-end-line="47" selection-end-column="85" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Server/src/main/java/am/chat/Server.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="254">
-          <caret line="273" column="47" selection-start-line="273" selection-start-column="47" selection-end-line="273" selection-end-column="47" />
+        <state relative-caret-position="72">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
           <folding>
-            <element signature="e#454#566#0" />
-            <element signature="e#572#1453#0" />
-            <element signature="e#1459#1905#0" />
-            <element signature="e#1911#2655#0" />
-            <element signature="e#2661#3518#0" />
-            <element signature="e#3524#4424#0" />
-            <element signature="e#4430#5771#0" />
-            <element signature="e#5777#5895#0" />
-            <element signature="e#5777#6455#0" />
-            <element signature="e#6461#7422#0" />
-            <element signature="e#7428#7919#0" />
-            <element signature="e#7880#9407#0" />
-            <element signature="e#11162#12245#0" />
-            <element signature="e#13717#13816#0" />
+            <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://244eb364-58c7-443d-b38b-b4022375adb4/schema/cli_chat/table/friend_request">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
         </state>
       </provider>
     </entry>
@@ -958,12 +942,41 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Server/src/main/java/am/chat/ClientProcessor.java">
+    <entry file="das://244eb364-58c7-443d-b38b-b4022375adb4/schema/cli_chat/table/friend_request">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/244eb364-58c7-443d-b38b-b4022375adb4/console.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="71">
-          <caret line="30" selection-start-line="30" selection-end-line="30" />
+        <state relative-caret-position="222">
+          <caret line="45" selection-start-line="45" selection-end-line="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Server/src/main/java/am/chat/Server.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="205">
+          <caret line="130" column="35" lean-forward="true" selection-start-line="130" selection-start-column="35" selection-end-line="130" selection-end-column="35" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#454#566#0" />
+            <element signature="e#572#1453#0" />
+            <element signature="e#1459#1905#0" />
+            <element signature="e#1911#2655#0" />
+            <element signature="e#2661#3518#0" />
+            <element signature="e#3524#4424#0" />
+            <element signature="e#5777#5895#0" />
+            <element signature="e#5777#6455#0" />
+            <element signature="e#6461#7422#0" />
+            <element signature="e#7428#7468#0" />
+            <element signature="e#7428#7919#0" />
+            <element signature="e#7925#8060#0" />
+            <element signature="e#7880#9407#0" />
+            <element signature="e#9493#9996#0" />
+            <element signature="e#11162#12245#0" />
+            <element signature="e#13717#13816#0" />
           </folding>
         </state>
       </provider>
